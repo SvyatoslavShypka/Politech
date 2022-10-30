@@ -13,9 +13,9 @@ public class NiezrobioneZad2 {
             mianownik = pierwszyElementMianownika;
 
             for (int i = 2; i <= n; i++) {
-    //            System.out.println(elementLicznika(i));
+                System.out.println("Elementy licznika: " + elementLicznika(i));
                 licznik = licznik + elementLicznika(i);
-//                System.out.println("Elementy mianownika: " + elementMianownika(i));
+                System.out.println("Elementy mianownika: " + elementMianownika(i));
                 mianownik = mianownik * elementMianownika(i);
 //                System.out.println("mianownik = " + mianownik);
             }

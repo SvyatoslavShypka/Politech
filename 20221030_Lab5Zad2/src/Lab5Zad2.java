@@ -3,9 +3,10 @@ import java.util.Random;
 
 public class Lab5Zad2 {
 
-    public static int n = 10;
+//    public int k = 10;
 
-    public static int[] array = new int[n];
+    static int n = 10;
+    static int[] array = new int[n];
 
     public static void main(String[] args) {
 
@@ -18,10 +19,16 @@ public class Lab5Zad2 {
         printAll();
         System.out.println("Znaczenie minimalne: " + minValue());
         System.out.println("Iloczyn liczb nieparzystych: " + iloczynLiczbNieparzystych());
-        System.out.println("Ilosc liczb nieparzystych: " + iloscLiczbNieprzystych());
+        System.out.println("Ilosc liczb nieparzystych: " + iloscLiczbNieparzystych());
     }
 
-    private static int iloscLiczbNieprzystych() {
+    private static void printAll() {
+        for (int i = 0; i < n; i++) {
+            System.out.println(i + " : " + array[i]);
+        }
+    }
+
+    private static int iloscLiczbNieparzystych() {
         int ilosc = 0;
         for (int i = 0; i < n; i++) {
             if (array[i] % 2 != 0) {
@@ -45,15 +52,12 @@ public class Lab5Zad2 {
         int min = array[0];
         for (int i = 1; i < n; i++) {
 //            min = min > array[i] ? array[i] : min;
-            if (min > array[i]) min = array[i];
+            if (min > array[i]) {
+                min = array[i];
+            }
         }
         return min;
     }
 
-    private static void printAll() {
-        for (int i = 0; i < n; i++) {
-            System.out.println(i + " : " + array[i]);
-        }
-    }
 
 }
