@@ -23,7 +23,7 @@ public class Tablica2D_2 {
 
            for (int k = 0; k<=w; k++)
            {
-               tablica [w][k] = ++d;
+               tablica [w][k] = d++;
            }
 
        }
