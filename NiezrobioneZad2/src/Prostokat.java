@@ -76,7 +76,7 @@ public class  Prostokat {
             }
 
             Prostokat p1 = new Prostokat(x1, y1, x2, y2);
-            System.out.println(p1.x1 + " " + p1.y1 +" " + p1.x2 + " " + p1.y2 + p1.dl1 + " " + p1.dl2);
+//            System.out.println(p1.x1 + " " + p1.y1 +" " + p1.x2 + " " + p1.y2 + p1.dl1 + " " + p1.dl2);
             System.out.println("Pole: " + p1.Pole());
             System.out.println("Obwod: " + p1.Obwod());
             System.out.println("Przekatna: " + p1.Przekatna());
