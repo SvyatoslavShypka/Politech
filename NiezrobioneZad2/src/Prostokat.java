@@ -1,3 +1,5 @@
+import org.apache.commons.math3.util.Precision;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -80,6 +82,7 @@ public class  Prostokat {
             System.out.println("Pole: " + p1.Pole());
             System.out.println("Obwod: " + p1.Obwod());
             System.out.println("Przekatna: " + p1.Przekatna());
+            System.out.println("Przekatna: " + Precision.round(p1.Przekatna(), 4));
 
             System.out.println("\n");
 
