@@ -6,19 +6,22 @@ public class Lista4Zad3_MnozenieMacierzy_Extended {
 
     private static Random rand = new Random();
 
+    public static int[][] a = new int[rand.nextInt(4) + 2][rand.nextInt(4) + 2];
+    public static int[][] b = new int[a[0].length][rand.nextInt(4) + 2];
+
     public static void main(String[] args) {
 
-        int[][] a = new int[rand.nextInt(4) + 2][rand.nextInt(4) + 2];
         System.out.println("a - " + a.length + " : " + a[0].length);
-        int[][] b = new int[a[0].length][rand.nextInt(4) + 2];
         System.out.println("b - " + b.length + " : " + b[0].length);
-        a = WypelnienieMacierzy(a);
-        b = WypelnienieMacierzy(b);
+        WypelnienieMacierzy(a);
+//        a = WypelnienieMacierzy(a);
+//        b = WypelnienieMacierzy(b);
+        WypelnienieMacierzy(b);
 
         mnozenieMacierzy(a, b);
     }
 
-    private static int[][] WypelnienieMacierzy(int[][] a) {
+    private static void WypelnienieMacierzy(int[][] a) {
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < a[0].length; j++) {
                 a[i][j] = rand.nextInt(21) - 10;
@@ -28,7 +31,7 @@ public class Lista4Zad3_MnozenieMacierzy_Extended {
             System.out.println();
         }
         System.out.println();
-        return a;
+//        return a;
     }
 
     public static int[][] mnozenieMacierzy(int[][] a, int[][] b) {
