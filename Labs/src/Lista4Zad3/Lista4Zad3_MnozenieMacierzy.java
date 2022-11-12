@@ -16,7 +16,7 @@ public class Lista4Zad3_MnozenieMacierzy {
                 {3,4},
                 {5,6}
         };
-        mnozenieMacierzy(b, a);
+        mnozenieMacierzy(a, b);
     }
 
     public static int[][] mnozenieMacierzy(int[][] a, int[][] b) {
