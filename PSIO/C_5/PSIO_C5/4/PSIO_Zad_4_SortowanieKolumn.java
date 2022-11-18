@@ -15,7 +15,7 @@ public class PSIO_Zad_4_SortowanieKolumn {
     private static void sortujPoKolumnachBabelkowo(int[][] macierz) {
         int tmp;
         for (int j = 0; j < macierz[0].length; j++) {
-            for (int k = 1; k < macierz.length - 1; k++) {
+            for (int k = 1; k < macierz.length; k++) {
                 for (int i = 0; i < macierz.length - k; i++) {
                     if (macierz[i][j] > macierz[i+1][j]) {
                         tmp = macierz[i+1][j];
