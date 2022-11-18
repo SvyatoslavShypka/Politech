@@ -41,7 +41,7 @@ public class PSIO_Zad_4_SortowanieKolumn {
     private static void wypelnijMacierz(int[][] macierz) {
         for (int i = 0; i < macierz.length; i++) {
             for (int j = 0; j < macierz[0].length; j++) {
-                 macierz[i][j] = rand.nextInt(10 + 1);
+                 macierz[i][j] = rand.nextInt(10) + 1;
             }
         }
     }
