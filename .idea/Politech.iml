@@ -11,7 +11,9 @@
       <sourceFolder url="file://$MODULE_DIR$/PSIO/C_5/PSIO_C5/4" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PSIO/C_5/PSIO_C5/5" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PSIO/C_5/PSIO_C5/6" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PSIO/C_5/W4_ObjectRelation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PSIO/C_6" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/PSIO" />
+      <excludeFolder url="file://$MODULE_DIR$/PSIO/C_5/W4_ObjectRelation" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
