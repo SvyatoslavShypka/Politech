@@ -3,15 +3,21 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src/Lab7gr8" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/_kod_programow/Macierze" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/_kod_programow/_Macierze" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/_kod_programow/kod_programow" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/_kod_programow/kod_programow/Konto" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/kod_programow" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/kod_z_zajec_cw" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Lab11Zad2" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/src/Lab5Zad3_ext1" />
       <excludeFolder url="file://$MODULE_DIR$/src/kod_programow/Produkt" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Lab7gr8" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Arrays_tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/src/kod_programow" />
+      <excludeFolder url="file://$MODULE_DIR$/src/kod_z_zajec_cw" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Lab5Zad3" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Lab5Zad3_ext2" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Lab6_Zad1" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Lista4Zad3" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
