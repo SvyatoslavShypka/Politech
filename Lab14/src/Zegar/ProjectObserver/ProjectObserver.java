@@ -13,11 +13,14 @@ public class ProjectObserver {
         ZegarAnalogowy zegarAnalogowy = new ZegarAnalogowy(timeData);
 
         for (int i = 0; i < 6; i++) {
+            // pauza w 1 sekundê
             Thread.sleep(1000);
             if (i == 3) {
+                // test przesuniêcia czasu
                 timeData.przesun(23,59,57);
             }
             else {
+                // nastêpna sekunda
                 timeData.tykniecie();
             }
         }
