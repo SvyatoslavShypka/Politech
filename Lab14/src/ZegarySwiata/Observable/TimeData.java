@@ -16,9 +16,9 @@ public class TimeData implements Subject {
     private int ss;
 
     public TimeData() {
-        Date date = new Date();   // given date
-        Calendar calendar = GregorianCalendar.getInstance(); // creates a new calendar instance
-        calendar.setTime(date);   // assigns calendar to given date
+        Date date = new Date();   // dzisiejsza data
+        Calendar calendar = GregorianCalendar.getInstance(); // nowy kalendarz
+        calendar.setTime(date);   // po³¹czamy kalendarz z dat¹
         this.hh = calendar.get(Calendar.HOUR_OF_DAY);
         this.mm = calendar.get(Calendar.MINUTE);
         this.ss = calendar.get(Calendar.SECOND);
@@ -57,7 +57,6 @@ public class TimeData implements Subject {
     private void display() {
         System.out.printf("Zegar Atomowy: \t\t\t%d:%d:%d\n", hh, mm, ss);
     }
-    //____________________________________________________________________________
 
     //Ustawienie nowego stanu dla obiektu obserwowanego____________________________
     public void przesun(int hh, int mm, int ss)
@@ -67,7 +66,6 @@ public class TimeData implements Subject {
         this.mm += mm;
         this.ss += ss;
         correctTime();
-//        display();
         measurementsChanged();
     }
 
@@ -89,7 +87,6 @@ public class TimeData implements Subject {
         System.out.println("\nZegar tyka");
         ss++;
         correctTime();
-//        display();
         measurementsChanged();
     }
 
