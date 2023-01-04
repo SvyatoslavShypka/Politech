@@ -18,8 +18,9 @@ public class ZegarWaszyngton implements Observer {
 
     @Override
     public void update(int hh, int mm, int ss) {
+        // Ró¿nica czasu w Waszyngtonie - "-6 godzin"
         this.hh = hh - 6;
-        // je¿eli minus - to czas z poprzedniego dnia
+        // je¿eli minus - to to jest czas z poprzedniego dnia
         if (this.hh < 0) {
             this.hh+=24;
         }
