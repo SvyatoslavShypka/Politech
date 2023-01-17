@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Lab11_Zad1/Lab11_Zad1.iml" filepath="$PROJECT_DIR$/Lab11_Zad1/Lab11_Zad1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab12_Figury/Lab12_Figury.iml" filepath="$PROJECT_DIR$/Lab12_Figury/Lab12_Figury.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab12_Konwerter/Lab12_Konwerter.iml" filepath="$PROJECT_DIR$/Lab12_Konwerter/Lab12_Konwerter.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab13_Sniadanie/Lab13_Sniadanie.iml" filepath="$PROJECT_DIR$/Lab13_Sniadanie/Lab13_Sniadanie.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab14/Lab14.iml" filepath="$PROJECT_DIR$/Lab14/Lab14.iml" />
       <module fileurl="file://$PROJECT_DIR$/Labs/Labs.iml" filepath="$PROJECT_DIR$/Labs/Labs.iml" />

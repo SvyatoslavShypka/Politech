@@ -14,8 +14,6 @@ public class ZegarWaszyngton implements Observer {
         this.timeData.registerObserver(this);
     }
 
-
-
     @Override
     public void update(int hh, int mm, int ss) {
         // Ró¿nica czasu w Waszyngtonie - "-6 godzin"
