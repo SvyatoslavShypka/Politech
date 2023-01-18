@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Collections_base/Collections_base.iml" filepath="$PROJECT_DIR$/Collections_base/Collections_base.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab11_Zad1/Lab11_Zad1.iml" filepath="$PROJECT_DIR$/Lab11_Zad1/Lab11_Zad1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab12_Figury/Lab12_Figury.iml" filepath="$PROJECT_DIR$/Lab12_Figury/Lab12_Figury.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab12_Konwerter/Lab12_Konwerter.iml" filepath="$PROJECT_DIR$/Lab12_Konwerter/Lab12_Konwerter.iml" />
