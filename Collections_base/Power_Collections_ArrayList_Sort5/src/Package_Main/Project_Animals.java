@@ -1,9 +1,12 @@
 package Package_Main;
 
+import Zwierze.Kot;
+import Zwierze.Pies;
+import Zwierze.Zwierze;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-import Zwierze.*;
 
 public class Project_Animals {
 
