@@ -1,8 +1,11 @@
 package Package_Main;
 
+import Zwierze.Kot;
+import Zwierze.Pies;
+import Zwierze.Zwierze;
+
 import java.util.ArrayList;
 import java.util.Collections;
-import Zwierze.*;
 
 public class Project_Animals {
 
