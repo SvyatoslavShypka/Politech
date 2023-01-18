@@ -1,20 +1,17 @@
 package Package_Main;
 
-import Zwierze.Kot;
-import Zwierze.Pies;
-import Zwierze.Zwierze;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import Zwierze.*;
 
 public class Project_Animals {
 
 	//Sk³adowe Klasy________________________
-	private ArrayList<Zwierze> animals;		
-	//To s¹ nasze komparatory	
+	private ArrayList<Zwierze> animals;	
+	
 	private ZwierzeCompare_WabiSie Comparator1;
-	private ZwierzeCompare_Wiek Comparator2;
+	private ZwierzeCompare_WabiSie_Wiek Comparator2;
 	//______________________________________
 	
 	//Konstruktor klasy_____________________
@@ -46,17 +43,6 @@ public class Project_Animals {
 	//******************************************************
 
 	////////////////////////////////////////////////////////////////////////////////////
-	
-	
-/*	Jak najbardziej, w JAVIE mo¿emy tworzyæ klasy wewnêtrzne, tzn. okreœliæ klasê w klasie.
-	Klasy wewnêtrzne (ich metody), maj¹ dostêp do sk³adowych klasy zewnêtrznej (nawet tych prywatnych).
-	Sens korzystania z nich stanowi mo¿liwoœæ przes³aniania metod implementowanego interfejsu na ró¿ne sposoby.
-
-	Tzn. gdyby klasa podstawowa implementowa³a interfejs Comparator, 
-	to mo¿liwoœæ przes³oniêcia metody z interfejsu by³aby tylko jedna, a oznacza to, ¿e okreœlilibyœmy tylko jeden sposób sortowania.
-
-	Korzystaj¹c z klas wewnêtrznych, umo¿liwiamy tworzenie wielu komparatorów, czyli wiele sposobów na sortowanie ArrayList'y.
-*/	
 	//Klasy Wewnêtrzne	
 	class ZwierzeCompare_WabiSie implements Comparator<Zwierze> 
 	{
@@ -64,17 +50,23 @@ public class Project_Animals {
 		{
 			return zw1.getZwierze_Wabi_sie().compareTo(zw2.getZwierze_Wabi_sie());
 		}
-	}
+	}	
 	
-	class ZwierzeCompare_Wiek implements Comparator<Zwierze> 
+/*	Ten komparator (sortuj¹cy wed³ug wieku), bêdzie sortowaæ tylko dla takich 
+	samych wartoœci sk³adowej 'wabi siê'.
+	A wiêc zachowa sortowania komparatora pierwszego.*/
+	class ZwierzeCompare_WabiSie_Wiek implements Comparator<Zwierze> 
 	{
 		public int compare(Zwierze zw1, Zwierze zw2) 
 		{		
-			if (zw1.getZwierze_Wiek()<zw2.getZwierze_Wiek()) return -1;	
-			if (zw1.getZwierze_Wiek()>zw2.getZwierze_Wiek()) return 1;
+			if (zw1.getZwierze_Wabi_sie().equals(zw2.getZwierze_Wabi_sie()) && (zw1.getZwierze_Wiek()<zw2.getZwierze_Wiek()) ) return -1;
+			
+			if (zw1.getZwierze_Wabi_sie().equals(zw2.getZwierze_Wabi_sie()) && (zw1.getZwierze_Wiek()>zw2.getZwierze_Wiek()) ) return 1;
+
 			return 0;
 		}
 	}
+	
 	/////////////////////////////////////////////////////////////////////////////////////
 	
 	
@@ -85,15 +77,15 @@ public class Project_Animals {
 		animals.add(new Pies("Burek", "Labrador", 2, false));
 		animals.add(new Kot("Szarek", "Kot Europejski", 3, true));
 		animals.add(new Kot("Szarek", "Kot Australijski", 2, true));
+		animals.add(new Pies("Burek", "Owczarek", 1, false));
 		animals.add(new Pies("Hektor", "Boxer", 3, false));
 		animals.add(new Kot("Szarek", "Kot Australijski", 5, true));		
 	}
 	
-	//Tworzymy nasze komparatory - czyli referencja na obiekty klas wewnêtrznych
 	public void CreateComparators()
 	{
 		Comparator1 = new ZwierzeCompare_WabiSie();
-		Comparator2 = new ZwierzeCompare_Wiek();
+		Comparator2 = new ZwierzeCompare_WabiSie_Wiek();
 		
 	}
 	
@@ -110,7 +102,7 @@ public class Project_Animals {
 	public ZwierzeCompare_WabiSie getComparator1() {
 		return Comparator1;
 	}
-	public ZwierzeCompare_Wiek getComparator2() {
+	public ZwierzeCompare_WabiSie_Wiek getComparator2() {
 		return Comparator2;
 	}
 	//____________________________________________________________________________
