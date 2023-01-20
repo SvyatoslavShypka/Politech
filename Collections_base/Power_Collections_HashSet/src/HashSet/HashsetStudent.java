@@ -22,6 +22,7 @@ class Student
 	//Metody przes³oniête_____________________________________________________
 	@Override
 	public int hashCode() {
+//		System.out.println(this.getNazwisko().hashCode());
 		return this.getNazwisko().hashCode();
 //		return this.getImie().hashCode();
 	}
