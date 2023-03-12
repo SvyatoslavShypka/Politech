@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AISD_Drawer/AISD_Drawer.iml" filepath="$PROJECT_DIR$/AISD_Drawer/AISD_Drawer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AiSD_W01/AiSD_W01.iml" filepath="$PROJECT_DIR$/AiSD_W01/AiSD_W01.iml" />
       <module fileurl="file://$PROJECT_DIR$/Collections_base/Collections_base.iml" filepath="$PROJECT_DIR$/Collections_base/Collections_base.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab11_Zad1/Lab11_Zad1.iml" filepath="$PROJECT_DIR$/Lab11_Zad1/Lab11_Zad1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab12_Figury/Lab12_Figury.iml" filepath="$PROJECT_DIR$/Lab12_Figury/Lab12_Figury.iml" />
@@ -11,12 +13,14 @@
       <module fileurl="file://$PROJECT_DIR$/Labs/Labs.iml" filepath="$PROJECT_DIR$/Labs/Labs.iml" />
       <module fileurl="file://$PROJECT_DIR$/Pieso/Pieso.iml" filepath="$PROJECT_DIR$/Pieso/Pieso.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Politech.iml" filepath="$PROJECT_DIR$/.idea/Politech.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PopUpTest/PopUpTest.iml" filepath="$PROJECT_DIR$/PopUpTest/PopUpTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/Power_Design_Patterns_Observer/Power_Design_Patterns_Observer.iml" filepath="$PROJECT_DIR$/Power_Design_Patterns_Observer/Power_Design_Patterns_Observer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Power_GUI_Examples/Power_GUI_Examples.iml" filepath="$PROJECT_DIR$/Power_GUI_Examples/Power_GUI_Examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/Strategy/Strategy.iml" filepath="$PROJECT_DIR$/Strategy/Strategy.iml" />
       <module fileurl="file://$PROJECT_DIR$/Strategy_Ciasto/Strategy_Ciasto.iml" filepath="$PROJECT_DIR$/Strategy_Ciasto/Strategy_Ciasto.iml" />
       <module fileurl="file://$PROJECT_DIR$/SwojeFunkcji/SwojeFunkcji.iml" filepath="$PROJECT_DIR$/SwojeFunkcji/SwojeFunkcji.iml" />
       <module fileurl="file://$PROJECT_DIR$/W13_ProjectMarket1/W13_ProjectMarket1.iml" filepath="$PROJECT_DIR$/W13_ProjectMarket1/W13_ProjectMarket1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jlistdemo1/jlistdemo1.iml" filepath="$PROJECT_DIR$/jlistdemo1/jlistdemo1.iml" />
     </modules>
   </component>
 </project>
